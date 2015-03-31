@@ -1,4 +1,5 @@
-  # These are now, e.g., Board::DimensionError
+class Board
+
   class DimensionError < StandardError;end
   class CellError < StandardError;end
 
