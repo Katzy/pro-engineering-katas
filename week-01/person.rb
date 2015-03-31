@@ -23,16 +23,12 @@ class Person
 
   def full_name
     @first_name + " " + @last_name
-
   end
 
   def age
     d = Date.parse("#{@birth_date}")
     now = DateTime.now
-
     now.year - d.year
-
-
   end
 
   def younger_than?(other_person)
